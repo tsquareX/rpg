@@ -38,7 +38,7 @@ dir = 0;
 attacked = false;
 image_speed = 0;
 state = scr_move_state;
-face = RIGHT;
+face = RIGHT; 
 </string>
           </argument>
         </arguments>
