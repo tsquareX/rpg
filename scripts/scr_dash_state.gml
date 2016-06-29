@@ -1,4 +1,5 @@
 ///scr_dash_state
+movement = MOVE;
 if (len == 0){ 
     dir = face*90;
 }
@@ -10,6 +11,7 @@ hspd = lengthdir_x(len,dir);
 vspd = lengthdir_y(len,dir);
 
 // Move
+audio_play_sound(snd_dash,7,false);
 phy_position_x += hspd;
 phy_position_y += vspd;
 
