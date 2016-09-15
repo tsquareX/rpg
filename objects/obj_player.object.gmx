@@ -37,11 +37,11 @@ xaxis = 0;
 yaxis = 0;
 len = 0;
 dir = 0;
-attacked = false;
 image_speed = 0;
 state = scr_move_state;
 face = RIGHT;
 movement = MOVE;
+weapon_sprite = spr_sword;
 
 //Create the sprite array
 sprite[RIGHT, MOVE] = spr_player_right;

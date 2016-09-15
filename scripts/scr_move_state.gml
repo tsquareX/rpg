@@ -44,6 +44,12 @@ if(obj_input.spell_key){
     }
 }
 
+if(obj_input.swap_key){
+    var nearest_weapon = instance_nearest(x,y, obj_weapon_item);
+    if(place_meeting(x,y+4,nearest_weapon)){
+        scr_swap_weapons(nearest_weapon);
+    }
+}
 // Get direction
 dir = point_direction(0, 0, obj_input.xaxis, obj_input.yaxis);
 

@@ -38,6 +38,8 @@
     <sprite>sprites\spr_chinlin_stand_up</sprite>
     <sprite>sprites\spr_chinlin_stand_down</sprite>
     <sprite>sprites\spr_chinlin_stand_right</sprite>
+    <sprite>sprites\spr_sword</sprite>
+    <sprite>sprites\spr_axe</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -48,6 +50,7 @@
       <script>scripts\scr_dash_state.gml</script>
       <script>scripts\scr_move_state.gml</script>
       <script>scripts\scr_attack_state.gml</script>
+      <script>scripts\Animation_hit_frame.gml</script>
     </scripts>
     <scripts name="Helper Scripts">
       <script>scripts\scr_get_face.gml</script>
@@ -68,6 +71,7 @@
       <script>scripts\scr_enemy_chase_state.gml</script>
       <script>scripts\scr_enemy_wander_state.gml</script>
     </scripts>
+    <script>scripts\scr_swap_weapons.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_lifeform_parent</object>
@@ -88,6 +92,8 @@
     <object>objects\obj_input</object>
     <object>objects\obj_pause_menu</object>
     <object>objects\obj_projectile</object>
+    <object>objects\obj_weapon_animation</object>
+    <object>objects\obj_weapon_item</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
